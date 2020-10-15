@@ -8,7 +8,7 @@ end
 
 def input_to_index(choice)
   choice.to_i
-  
+  choice = choice - 1
   
 end
 # code your input_to_index and move method here!
