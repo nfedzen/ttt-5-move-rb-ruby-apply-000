@@ -7,6 +7,11 @@ def display_board(board)
 end
 
 def input_to_index(choice)
-  number = choice.to_i - 1
+  index = choice.to_i - 1
+end
+
+def move(board, index, character)
+  
+  
 end
 # code your input_to_index and move method here!
